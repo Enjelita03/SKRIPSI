@@ -1,0 +1,9 @@
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install flask pandas matplotlib seaborn scikit-learn openpyxl
+
+pip list
+
+python app.py
